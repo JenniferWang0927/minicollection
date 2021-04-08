@@ -107,7 +107,7 @@ function consoleLogName() {
         })
 
         var filterVegan = document.querySelector('.vegan');
-        VeganDubstep.addEventListener("click", function(){
+        Vegan.addEventListener("click", function(){
             if (nameContainer.classList.contains("vegan")){    
                 nameContainer.style.background = "green";
             } else {
